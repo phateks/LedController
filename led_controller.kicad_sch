@@ -4422,7 +4422,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 66.04) (xy 59.69 57.15)
+			(xy 59.69 68.58) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4723,6 +4723,28 @@
 		(uuid "6ed75be2-d249-49fa-a03f-2977f5dac9fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN"
+		(shape input)
+		(at 55.88 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77a91b4c-4a9c-48af-b8af-d8ff6fac50a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 83.4353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5634,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 59.69 66.04 0)
+		(at 59.69 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5621,7 +5643,7 @@
 		(fields_autoplaced yes)
 		(uuid "37eadcfa-63ef-4830-903d-3702e35bc0aa")
 		(property "Reference" "#PWR01"
-			(at 59.69 72.39 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5652,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 59.69 71.12 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 66.04 0)
+			(at 59.69 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 66.04 0)
+			(at 59.69 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +5678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 59.69 66.04 0)
+			(at 59.69 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,6 +7033,76 @@
 			(project "led_controller"
 				(path "/f7384fac-022b-47e0-8e4e-5c549011b8cf"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7502fc40-482c-4e14-848c-77e68ba9bac4")
+		(property "Reference" "C3"
+			(at 59.69 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 59.69 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 56.8452 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "439131ae-bfdf-4159-bb42-8f39cbfec61d")
+		)
+		(pin "1"
+			(uuid "f4ded54c-4039-46e9-a36e-81591cd5ca44")
+		)
+		(instances
+			(project "led_controller"
+				(path "/f7384fac-022b-47e0-8e4e-5c549011b8cf"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8523,6 +8615,72 @@
 			(project "led_controller"
 				(path "/f7384fac-022b-47e0-8e4e-5c549011b8cf"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 55.88 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb63801b-f1a5-4bb5-a89d-673b206be22c")
+		(property "Reference" "#PWR016"
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b749a06-571c-48e9-ab10-67e851b16fca")
+		)
+		(instances
+			(project "led_controller"
+				(path "/f7384fac-022b-47e0-8e4e-5c549011b8cf"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
