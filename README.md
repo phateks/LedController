@@ -2,7 +2,7 @@
 
 <table>
 	<tr>
-		
+		<td><img src="Images/top_layer.png" alt="PCB Top" width="420" /></td>
 		<td><img src="Images/bottom_layer.png" alt="PCB Bottom" width="420" /></td>
 	</tr>
 </table>
