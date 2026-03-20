@@ -8,6 +8,7 @@
 </table>
 
 
+
 ## Power
 - Input: 12 or 24 VDC on J1 connector
 
