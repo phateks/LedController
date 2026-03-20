@@ -1,7 +1,7 @@
 # LED Controller (ESP32-C3-Mini)
 
-![PCB Top](/images/top_layer.png)
-![PCB Bottom](/images/bottom_layer.png)
+![PCB Top](Images/top_layer.png)
+![PCB Bottom](Images/bottom_layer.png)
 
 
 ## Power
